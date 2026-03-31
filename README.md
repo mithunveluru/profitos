@@ -1,4 +1,4 @@
-# Procurement & Invoice Management System
+# ProfitOS - Intelligent Business Operations Management System
 
 A full-stack system built to streamline procurement, inventory updates, and invoice handling in a single workflow.  
 The focus is not only on individual features, but on how these components work together in a real operational system.
