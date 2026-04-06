@@ -1,11 +1,5 @@
 import { useRole } from "../../hooks/useAuth";
 
-/**
- * Renders children only if user has required role.
- * <RoleGuard roles={["owner","manager"]}> ... </RoleGuard>
- * <RoleGuard ownerOnly> ... </RoleGuard>
- * <RoleGuard managerOnly> ... </RoleGuard>
- */
 export default function RoleGuard({ children, roles, ownerOnly, managerOnly, fallback = null }) {
   const { role } = useRole();
 

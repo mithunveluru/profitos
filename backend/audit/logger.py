@@ -19,4 +19,3 @@ class AuditLogger:
     async def log(self, action: str, entity_id: str, user_id: str, meta: dict = None):
         log = AuditLog(action=action, entity_id=entity_id, user_id=user_id, meta=meta)
         self.db.add(log)
-        # No flush — commited with parent transaction

@@ -112,7 +112,7 @@ export default function AuditPage() {
                   </span>
                 </div>
 
-                {/* ✅ Entity name — was log.entity_id?.slice(0,16) */}
+                
                 <div className="col-span-3">
                   <p className="text-xs text-white truncate">
                     {log.entity_name ?? "—"}
@@ -122,7 +122,7 @@ export default function AuditPage() {
                   )}
                 </div>
 
-                {/* ✅ User name — was log.user_id?.slice(0,8) */}
+                
                 <div className="col-span-2">
                   <p className="text-xs text-white truncate">
                     {log.performed_by ?? "Unknown"}
