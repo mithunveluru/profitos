@@ -151,7 +151,7 @@ volumes:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/profitos.git
+git clone https://github.com/mithunveluru/profitos.git
 cd profitos
 ```
 
