@@ -85,8 +85,6 @@ profitos/
 ├── docker-compose.yml
 └── README.md
 
-
-
 ---
 
 ## User Roles & Permissions
