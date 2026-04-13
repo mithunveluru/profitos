@@ -58,33 +58,34 @@ ProfitOS solves this by providing:
 
 ## Project Structure
 
+```text
 profitos/
 ├── backend/
-│ ├── core/
-│ │ └── database.py # Async SQLAlchemy engine + session
-│ ├── models/
-│ │ ├── user.py # User model + UserRole enum
-│ │ ├── supplier.py
-│ │ ├── product.py
-│ │ ├── purchaseorder.py
-│ │ ├── invoice.py
-│ │ ├── inventory.py
-│ │ ├── customer.py
-│ │ ├── sales.py
-│ │ └── payment.py
-│ ├── routers/ # FastAPI route handlers per domain
-│ ├── schemas/ # Pydantic request/response schemas
-│ ├── seedbusiness.py # Realistic 9-month business seed script
-│ ├── requirements.txt
-│ └── Dockerfile
+│   ├── core/
+│   │   └── database.py          # Async SQLAlchemy engine + session
+│   ├── models/
+│   │   ├── user.py              # User model + UserRole enum
+│   │   ├── supplier.py
+│   │   ├── product.py
+│   │   ├── purchaseorder.py
+│   │   ├── invoice.py
+│   │   ├── inventory.py
+│   │   ├── customer.py
+│   │   ├── sales.py
+│   │   └── payment.py
+│   ├── routers/                 # FastAPI route handlers per domain
+│   ├── schemas/                 # Pydantic request/response schemas
+│   ├── seedbusiness.py          # Realistic 9-month business seed script
+│   ├── requirements.txt
+│   └── Dockerfile
 ├── frontend/
-│ ├── src/
-│ ├── public/
-│ ├── vite.config.js
-│ └── Dockerfile
+│   ├── src/
+│   ├── public/
+│   ├── vite.config.js
+│   └── Dockerfile
 ├── docker-compose.yml
 └── README.md
-
+```
 ---
 
 ## User Roles & Permissions
